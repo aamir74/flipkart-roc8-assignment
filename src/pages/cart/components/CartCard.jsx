@@ -12,7 +12,7 @@ const CartCard = ({
   return (
     <div className="cart-card">
       <div className="card card-with-text">
-        <img className="card-img" src={image} />
+        <img className="card-img" src={image} alt="product"/>
       </div>
       <div className="card-details">
         <h3 className="card-text-title">{name}</h3>
